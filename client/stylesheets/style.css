@@ -1,0 +1,126 @@
+body {
+	background: #fff;
+	margin: auto;
+	font-size: 100%;
+}
+header, main, footer {
+	min-width: 855px;
+}
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
+}
+header {
+	background: yellow;
+	overflow: auto;
+	padding: 25px 0 25px 0;
+	border-bottom: 1px solid #ddd;
+}
+h1 {
+	float: left;
+	width: 570px;
+	font-family: 'Ubuntu', sans-serif;
+	font-style: italic;
+	font-size: 3em;
+	color: #b33;
+}
+header nav {
+	float: right;
+	width: 285px;
+	font-size: small
+}
+main {
+    background: #fff;
+    border-radius: 0 5px 5px 5px;;
+    padding: 40px;
+}
+.tabs a span {
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	background: #ddd;
+	padding: 5px; 
+}
+.tabs a .active {
+	background: #eee;
+}
+main .content {
+    padding: 30px 10px 30px 10px;
+    border-radius: 0 5px 5px 5px;
+    background: #eee;
+}
+main .content li {
+    border-radius: 5px;
+    padding: 3px;
+    background: #eee;
+    margin: 0 0 10px 0;
+}
+main .content button {
+  font-weight: bold;
+  padding: 0 3px 0 3px;
+  border-radius: 5px;
+  background: yellow;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 0.9em;
+}
+footer {
+    padding: 40px 0 20px 0;
+    overflow: auto;
+}
+footer .contact {
+	float: left;
+	width: 570px;
+}
+footer .contact p:nth-child(2) {
+  color: #b33;
+  font-style: italic;
+}
+footer .sitemap {
+	float: right;
+	width: 285px;
+	overflow: auto;
+}
+h5 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
+footer .leftsitemap {
+	float: left;
+}
+footer .rightsitemap {
+	float: right;
+}
+li {
+    list-style: none;
+}
+main .content p {
+    background: #eee;
+}
+main .content input {
+    font-size: 0.9em;
+}
+main ul {
+	padding: 5px;
+}
+footer h5 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: large
+}
+.sitemap h5 {
+	text-align: center
+}
+footer li {
+	font-size: small
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+	text-decoration: underline;
+}
